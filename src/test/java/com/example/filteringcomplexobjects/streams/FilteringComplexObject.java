@@ -74,7 +74,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with complex condition filter stream: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with complex condition filter stream: " + watch.getTotalTimeSeconds());
 
     }
 
@@ -96,7 +96,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with for loop: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with for loop: " + watch.getTotalTimeSeconds());
 
     }
 
@@ -115,7 +115,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with multi filter parallel stream: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with multi filter parallel stream: " + watch.getTotalTimeSeconds());
 
     }
 
@@ -134,7 +134,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with complex condition filter parallel stream: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with complex condition filter parallel stream: " + watch.getTotalTimeSeconds());
 
     }
 
@@ -157,7 +157,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with multi filter parallel stream with Predicates: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with multi filter parallel stream with Predicates: " + watch.getTotalTimeSeconds());
 
     }
 
@@ -178,7 +178,7 @@ public class FilteringComplexObject {
         watch.stop();
 
         statistic(students);
-        System.out.println("Total execution time to filter " + key + " items with complex condition with and filter parallel stream Predicates: " + watch.getTotalTimeNanos());
+        System.out.println("Total execution time to filter " + key + " items with complex condition with and filter parallel stream Predicates: " + watch.getTotalTimeSeconds());
 
     }
 
